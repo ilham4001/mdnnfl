@@ -70,37 +70,37 @@ function App() {
             </label>
             <div className="grid grid-cols-3 gap-3">
               <button
-                onClick={() => handlePlatformSelect('Mobile')}
+                onClick={() => handlePlatformSelect('Android')}
                 className={`flex flex-col items-center p-3 rounded-xl border-2 ${
-                  selectedPlatform === 'Mobile'
+                  selectedPlatform === 'Android'
                     ? 'border-[#FFB612] bg-[#FFB612]/15'
                     : 'border-[#013369] bg-[#013369]/10'
                 } hover:bg-[#013369]/20 transition-all`}
               >
                 <span className="text-2xl">📱</span>
-                <span className="text-white text-sm mt-1">Mobile</span>
+                <span className="text-white text-sm mt-1">Android</span>
               </button>
               <button
-                onClick={() => handlePlatformSelect('PlayStation')}
+                onClick={() => handlePlatformSelect('iOS')}
                 className={`flex flex-col items-center p-3 rounded-xl border-2 ${
-                  selectedPlatform === 'PlayStation'
+                  selectedPlatform === 'iOS'
                     ? 'border-[#FFB612] bg-[#FFB612]/15'
                     : 'border-[#013369] bg-[#013369]/10'
                 } hover:bg-[#013369]/20 transition-all`}
               >
-                <span className="text-2xl">🎮</span>
-                <span className="text-white text-sm mt-1">PlayStation</span>
+                <span className="text-2xl">🍏</span>
+                <span className="text-white text-sm mt-1">iOS</span>
               </button>
               <button
-                onClick={() => handlePlatformSelect('Xbox')}
+                onClick={() => handlePlatformSelect('PC')}
                 className={`flex flex-col items-center p-3 rounded-xl border-2 ${
-                  selectedPlatform === 'Xbox'
+                  selectedPlatform === 'PC'
                     ? 'border-[#FFB612] bg-[#FFB612]/15'
                     : 'border-[#013369] bg-[#013369]/10'
                 } hover:bg-[#013369]/20 transition-all`}
               >
-                <span className="text-2xl">🕹️</span>
-                <span className="text-white text-sm mt-1">Xbox</span>
+                <span className="text-2xl">💻</span>
+                <span className="text-white text-sm mt-1">PC</span>
               </button>
             </div>
           </div>
